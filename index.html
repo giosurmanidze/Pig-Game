@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title> Pig Game </title>
+</head>
+<body>
+    <main>
+        <div class="players">
+            <section class="player--0 player-active">
+                <div class="head--1 head">
+                    <h1 class="player">player 1</h1>
+                    <span class="player_0_score score">40</span>
+                </div>
+                <div class="footer">
+                    <p>Current</p>
+                    <span class="current-score-0 current">0</span>
+                </div>
+            </section>
+            <section class="player--1">
+                <div class="head--2 head">
+                    <h1 class="player">player 2</h1>
+                    <span class="player_1_score score">43</span>
+                </div>
+                <div class="footer">
+                    <p>Current</p>
+                    <span class="current-score-1 current">0</span>
+                </div>
+            </section>
+        </div>
+        <div class="Controlers">
+            <div class="reset--diceDisplay">
+               <button class="btn NewGameBtn" >
+                <span class="material-symbols-outlined">
+                    autorenew
+                    </span>   New game
+                </button>
+                <img class="dice--img" src="/images/dice-1.png" alt="dice">
+            </div>
+            <div class="btns">
+                <button class="btn btn-roll">
+                    <img src="/images/dice (1).png" alt="">
+                    Roll dice
+                </button>
+                <button class="btn holdBtn">🕹️ Hold</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
+                  
